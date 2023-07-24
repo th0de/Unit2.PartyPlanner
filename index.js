@@ -1,5 +1,5 @@
-const API_URL =
-  "https://fsa-async-await.herokuapp.com/api/guided-practice/artists";
+const COHORT = "REPLACE_ME!";
+const API_URL = `https://fsa-async-await.herokuapp.com/api/${COHORT}/artists`;
 
 const state = {
   artists: [],
